@@ -1,0 +1,81 @@
+h1 {
+  color: red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* html{
+    height: 100%;
+    background-color: yellow;
+}
+
+body{
+    height: 100%;
+} */
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("../img/graveyardtilesetnew/png/BG.png");
+  background-size: 100vw;
+  background-repeat:no-repeat;
+}
+
+.background {
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  width: 500px;
+  height: 200px;
+  background-image: url("../img/graveyardtilesetnew/png/Objects/Tree.png");
+  background-repeat: no-repeat;
+  /* background-size: 300px; */
+}
+
+#player {
+  background-image: url("../img/adventure_girl/png/Idle (1).png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 130px;
+  position: fixed;
+  bottom: 100px;
+  margin-bottom: 0;
+}
+
+#zombie {
+  background-image: url("../img/zombiefiles/png/male/Idle (1).png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 130px;
+  position: fixed;
+  bottom: 100px;
+  left: 10px;
+}
+#ninja {
+  background-image: url("../img/ninjaadventurenew/png/Idle__000.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 120px;
+  position: fixed;
+  bottom: 100px;
+}
+
+.turn {
+  transform: rotateY(180deg);
+}
+
+#ground {
+  width: 100vw;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  background-image: url("../img/graveyardtilesetnew/png/Tiles/Tile\ \(2\).png");
+  background-repeat: repeat-x;
+}
+
